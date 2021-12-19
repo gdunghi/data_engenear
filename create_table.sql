@@ -271,6 +271,7 @@ create table DIM_SALES_STAFF
 )
 ;
 
+CREATE SEQUENCE DIM_TIME_SEQ START WITH 1;
 create table DIM_TIME
 (
     TIME_ID NUMBER(11) not null
@@ -388,4 +389,4 @@ create table FACT_SALE
 );
 
 
-
+COMMIT WORK;

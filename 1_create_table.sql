@@ -264,10 +264,8 @@ create table DIM_SALES_STAFF
         constraint DIM_SALES_STAFF_PK
             primary key,
     EMP_FULL_NAME VARCHAR2(100),
-    STARTING_DATE DATE,
     WORK_BRANCH   VARCHAR2(100),
-    SEX           CHAR,
-    BIRTH_DATE    DATE
+    SEX           CHAR
 )
 ;
 
@@ -389,4 +387,3 @@ create table FACT_SALE
 );
 
 
-COMMIT WORK;

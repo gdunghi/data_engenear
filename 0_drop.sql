@@ -36,5 +36,4 @@ drop sequence SALES_STAFF_SEQ;
 drop sequence BILL_NO_SEQ;
 drop sequence DIM_TIME_SEQ;
 
-COMMIT WORK;
 
